@@ -45,6 +45,8 @@ const album3 = {
 
 // Exercise 3: Accessing the string 'LP' from album2's formats array, add it to the end of album3's formats array.
 
+album3.albumDetails.formats.push(album2.albumDetails.formats[0]);
+
 
 // Exercise 4:  Update the released property of album3 from a string into a Date object using that string
 
