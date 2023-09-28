@@ -20,7 +20,9 @@ console.log(title);
 
 // Exercise 2: Assign the string 'Sire' from album1 to a variable named label
 
-
+const label = album1.albumDetails.label;
+// check
+console.log(label);
 
 
 const album2 = {
@@ -44,12 +46,7 @@ const album3 = {
 // Exercise 3: Accessing the string 'LP' from album2's formats array, add it to the end of album3's formats array.
 
 
-
-
 // Exercise 4:  Update the released property of album3 from a string into a Date object using that string
-
-
-
 
 const album4 = {
   title: 'Remain in Light',
@@ -129,7 +126,7 @@ let albumIdx = 4;
 
 
 /********** Don't look below here **********/
-console.log('=========================== Excercise console.logs =============')
+console.log('=========================== Exercise console.logs =============')
 console.log('Exercise 1:', title);
 console.log('Exercise 2:', label);
 console.log('Exercise 3:', album3.albumDetails.formats[1]);
