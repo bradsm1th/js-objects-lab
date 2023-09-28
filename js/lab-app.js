@@ -128,7 +128,9 @@ const talkingHeadsAlbums = [
 
 // Exercise 8:  Using the talkingHeadsAlbums array, assign album5's labels property to a variable named labels
 
-
+const labels = talkingHeadsAlbums[4].albumDetails.labels;
+// check
+console.log("#8: " + labels);
 
 
 // Exercise 9:  Using the talkingHeadsAlbums array, assign album7's released property to album6's released property
