@@ -97,6 +97,13 @@ const album6 = {
 
 // Exercise 7:  Assign album6's formats array to a variable named formats
 
+const formats = [...album6.albumDetails.formats];
+// or
+// const formats = [];
+// album6.albumDetails.formats.forEach(format => formats.push(format));
+
+// check
+console.log(formats);
 
 
 
