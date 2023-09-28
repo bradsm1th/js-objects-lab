@@ -58,6 +58,10 @@ const album4 = {
   }
 };
 
+album3.albumDetails.released = new Date(album3.albumDetails['released']);
+// or
+// album3.albumDetails.released = new Date('August 3, 1979');
+
 // Exercise 5:  Add a property named label with the value 'Sire' to album4's albumDetails property
 
 
