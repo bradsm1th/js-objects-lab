@@ -145,7 +145,10 @@ console.log(talkingHeadsAlbums[5].albumDetails.released === talkingHeadsAlbums[6
 
 let albumIdx = 4;
 
+const albumDetails = talkingHeadsAlbums[albumIdx].albumDetails;
 
+// check
+console.log(albumDetails);
 
 
 
