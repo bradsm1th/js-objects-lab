@@ -1,0 +1,1 @@
+console.log("lab-app.js loaded");
